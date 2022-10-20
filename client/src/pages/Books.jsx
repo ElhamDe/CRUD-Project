@@ -11,8 +11,9 @@ const Books = () => {
             try{
              const res = await axios.get("http://localhost:8800/books")
              console.log(res)
-            }catch(err)
-            console.log(err)
+            }catch(err){
+                console.log(err)
+            }
         }
         fetchAllBooks()
     },[])
