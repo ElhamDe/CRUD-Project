@@ -2,7 +2,10 @@ import React from 'react'
 
 const Add = () => {
     return (
-        <div>Add</div>
+        <div className='form'>
+            <h1>Add new Book</h1>
+            <input type="text" />
+        </div>
     )
 }
 
